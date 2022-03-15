@@ -84,7 +84,7 @@ var ReferenceDrawer = function ReferenceDrawer(props) {
         setReferenceLoad(false);
       });
     }
-  }, [visible]);
+  }, [visible, fetchReference]);
   return /*#__PURE__*/React.createElement(_drawer["default"], {
     width: 650 // closable={false}
     ,

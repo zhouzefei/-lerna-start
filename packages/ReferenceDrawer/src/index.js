@@ -18,7 +18,7 @@ export const ReferenceDrawer = (props) => {
           setReferenceLoad(false);
         });
     }
-  }, [visible]);
+  }, [visible, fetchReference]);
 
   return (
     <Drawer
