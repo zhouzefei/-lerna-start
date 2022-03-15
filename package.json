@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/zhouzefei/lerna-start.git"
   },
-  "author": "",
+  "author": "zefei.zhou",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/zhouzefei/lerna-start/issues"
