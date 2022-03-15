@@ -20,8 +20,12 @@
     "url": "https://github.com/zhouzefei/lerna-start/issues"
   },
   "homepage": "https://github.com/zhouzefei/lerna-start#readme",
+  "keywords": [
+    "td",
+    "react",
+    "antd"
+  ],
   "peerDependencies": {
-    "@tntd/antd-cover": ">=3.0.1",
     "antd": ">=3.20.1",
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
@@ -40,7 +44,6 @@
     "@storybook/addon-interactions": "^6.4.19",
     "@storybook/addon-links": "^6.4.19",
     "@storybook/react": "^6.4.19",
-    "@tntd/antd-cover": "^3.0.4",
     "antd": "^3.26.20",
     "autoprefixer": "^9.8.8",
     "babel-loader": "^8.2.3",

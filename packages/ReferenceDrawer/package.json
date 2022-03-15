@@ -5,9 +5,8 @@
   "author": "周泽飞 <zefei.zhou@tongdun.net>",
   "license": "ISC",
   "main": "lib/index.js",
-  "module": "src/index.js",
+  "files": ["lib"],
   "peerDependencies": {
-    "@tntd/antd-cover": ">=3.0.1",
     "antd": ">=3.20.1",
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
