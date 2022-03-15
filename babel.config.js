@@ -1,24 +1,23 @@
 module.exports = {
-  babelrcRoots: ['./packages/*'],
-  presets: ['@babel/env', '@babel/preset-react'],
+  presets: [
+    '@babel/env',
+    '@babel/preset-react'
+  ],
   plugins: [
     [
-      '@babel/plugin-proposal-decorators',
+      "import", 
       {
-        legacy: true,
+        "libraryName": "antd",
+        "libraryDirectory": "es",
+        "style": true // `style: true` 会加载 less 文件
       },
-    ],
-    [
-      '@babel/plugin-proposal-class-properties',
-      {
-        loose: true,
-      },
+      "antd"
     ],
     [
       '@babel/plugin-proposal-optional-chaining',
       {
         loose: true,
       },
-    ],
-  ],
+    ]
+  ]
 };
